@@ -5,7 +5,7 @@
   /* Adjust layout, font sizes, etc. for smaller screens */
   /* .AppContainer {
     padding: 10px; /* Example: reduce padding */
-  /* } */ */
+  /* } */ 
 
   .mountainNavbar {
     flex-direction: column; /* Example: stack navbar items vertically */
