@@ -1,0 +1,134 @@
+.contactContainer {
+    background-image: url("./images/mountain1.png");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.climbnumber {
+    /* margin-left: 10rem; */
+    height: 5rem;
+    margin: 0.5rem 0rem 1rem 10rem;
+}
+
+.climbheader {
+    display: flex;
+    width: 100%;
+}
+
+.Climbtext {
+    margin: 1.5rem 0rem 0rem 2rem;
+    width: 40rem
+}
+
+.schedule1 {
+    margin: 6.5rem 0rem 0rem 13rem;
+}
+.navbartohome{
+    margin-top: 10%;
+}
+/* Default styles */
+
+/* Styles for screens smaller than 768px (e.g., smartphones) */
+@media (max-width: 767px) {
+    .contactContainer {
+      height: 100vh; /* Example: keep the same height for smaller screens */
+    }
+  .schedulecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+    .climbnumber {
+      height: 3rem; /* Example: adjust height for smaller screens */
+      margin: 0.5rem 0 0 2rem; /* Example: adjust margin for smaller screens */
+    }
+  
+    .climbheader {
+      flex-direction: column; /* Example: stack header items vertically for smaller screens */
+      align-items: flex-start; /* Example: align header items to the start for smaller screens */
+    }
+  
+    .Climbtext {
+      margin: 0 0 0 2rem; /* Example: adjust margin for smaller screens */
+      width: 90%; /* Example: adjust width for smaller screens */
+    }
+  
+    .schedule1 {
+      margin: 3rem 0 0 4rem;
+      height: 20vh;
+      width: 45vw; /* Example: adjust margin for smaller screens */
+    }
+  
+    .navbartohome {
+      margin-top: 5%; /* Example: adjust margin top for smaller screens */
+    }
+  }
+  
+  /* Styles for screens between 768px and 991px (e.g., tablets) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Adjust styles for medium-sized screens */
+    .contactContainer {
+      height: 100vh; /* Example: adjust height for medium-sized screens */
+    }
+    .schedulecontainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100vh;
+    }
+    .climbnumber {
+      height: 4rem; /* Example: adjust height for medium-sized screens */
+      margin: 0.5rem 0 1rem 5rem; /* Example: adjust margin for medium-sized screens */
+    }
+  
+    .Climbtext {
+      margin: 1.5rem 0 0 2rem; /* Example: adjust margin for medium-sized screens */
+      width: 70%; /* Example: adjust width for medium-sized screens */
+    }
+  
+    .schedule1 {
+      height: 30vh;
+      width: 55vw; 
+      margin: 4rem 0 0 8rem; /* Example: adjust margin for medium-sized screens */
+    }
+  
+    .navbartohome {
+      margin-top: 8%; /* Example: adjust margin top for medium-sized screens */
+    }
+  }
+  
+  /* Styles for screens larger than 992px (e.g., desktops) */
+  @media (min-width: 992px) {
+    /* Adjust styles for larger screens */
+    .contactContainer {
+      height: 100vh; /* Example: keep the same height for larger screens */
+    }
+    .schedulecontainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100vh;
+    }
+  
+    .climbnumber {
+      margin: 0.5rem 0 1rem 10rem; /* Example: keep the same margin for larger screens */
+    }
+  
+    .Climbtext {
+      width: 40rem; /* Example: keep the same width for larger screens */
+    }
+  
+    .schedule1 {
+      height: 30vh;
+      width: 35vw;
+      margin: 6.5rem 0 0 13rem; /* Example: keep the same margin for larger screens */
+    }
+  
+    .navbartohome {
+      margin-top: 10%; /* Example: keep the same margin top for larger screens */
+    }
+  }
+  

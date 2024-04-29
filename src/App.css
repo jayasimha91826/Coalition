@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
-}
+/* Default styles */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Styles for screens smaller than 768px (e.g., smartphones) */
+@media (max-width: 767px) {
+  /* Adjust layout, font sizes, etc. for smaller screens */
+  /* .AppContainer {
+    padding: 10px; /* Example: reduce padding */
+  /* } */ */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .mountainNavbar {
+    flex-direction: column; /* Example: stack navbar items vertically */
+  }
+
+  .mountain1, .mountain2 {
+    font-size: 14px; /* Example: decrease font size */
+    margin-left: 0; /* Example: remove left margin */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* Styles for screens between 768px and 991px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Adjust layout, font sizes, etc. for medium-sized screens */
+  /* .AppContainer {
+    padding: 20px; /* Example: adjust padding */
+  /* } */ 
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .mountain1, .mountain2 {
+    font-size: 16px; /* Example: increase font size */
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* Styles for screens larger than 992px (e.g., desktops) */
+@media (min-width: 992px) {
+  /* Adjust layout, font sizes, etc. for larger screens */
+  .AppContainer {
+    /* max-width: 1200px; Example: limit container width */
+    margin: 0 auto; /* Example: center container */
+  }
+
+  .mountain1, .mountain2 {
+    font-size: 18px; /* Example: increase font size */
   }
 }

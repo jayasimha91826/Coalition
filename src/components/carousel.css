@@ -1,0 +1,74 @@
+/* .mycarousel, .carousel, .slide{
+    width: 10rem;
+    height: 10rem;
+} */
+.mycarousel {
+    /* margin-top: 14rem;  */
+    background-color: rgba(70, 70, 104, 0.6);
+    width: 100vw;
+    height: 12rem;
+
+}
+
+.carouselimage {
+    width: 15vw;
+    margin-left: 35rem;
+    margin-top: 1rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 100%;
+    width: 10px !important;
+    height: 10px !important;
+    /* margin: 2rem !important;  */
+}
+.carousel-control-prev-icon{
+    background-image: none !important;
+}
+.carousel-control-next-icon{
+    background-image: none !important;
+}
+
+/* Default styles */
+
+/* Styles for screens smaller than 768px (e.g., smartphones) */
+@media (max-width: 767px) {
+    .mycarousel {
+      height: 10rem; /* Example: reduce height for smaller screens */
+    }
+  
+    .carouselimage {
+      width: 40vw; /* Example: adjust width for smaller screens */
+      margin-left: auto; /* Example: center align */
+      margin-right: auto;
+      margin-top: 0.5rem; /* Example: adjust top margin */
+    }
+  }
+  
+  /* Styles for screens between 768px and 991px (e.g., tablets) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .mycarousel {
+      height: 10rem; /* Example: adjust height for medium-sized screens */
+    }
+  
+    .carouselimage {
+      width: 20vw; /* Example: adjust width for medium-sized screens */
+      margin-left: auto; /* Example: center align */
+      margin-right: auto;
+      margin-top: 1rem; /* Example: adjust top margin */
+    }
+  }
+  
+  /* Styles for screens larger than 992px (e.g., desktops) */
+  @media (min-width: 992px) {
+    .mycarousel {
+      height: 12rem; /* Example: adjust height for larger screens */
+    }
+  
+    .carouselimage {
+      width: 15vw; /* Example: adjust width for larger screens */
+      margin-left: 35rem; /* Example: adjust left margin */
+      margin-top: 1rem; /* Example: adjust top margin */
+    }
+  }
+  

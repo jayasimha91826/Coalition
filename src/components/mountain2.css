@@ -1,0 +1,49 @@
+.mountmountain2{
+    background-image: url("./images/mountain2.png") !important;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.shedule2{
+    margin: 6.5rem 0rem 0rem 13rem;
+
+}
+
+/* Default styles */
+
+/* Styles for screens smaller than 768px (e.g., smartphones) */
+@media (max-width: 767px) {
+    .mountmountain2 {
+      height: 100vh; /* Example: keep the same height for smaller screens */
+    }
+  
+    .shedule2 {
+      margin: 2rem 0 0 2rem; /* Example: adjust margin for smaller screens */
+    }
+  }
+  
+  /* Styles for screens between 768px and 991px (e.g., tablets) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .mountmountain2 {
+      height:100vh; /* Example: adjust height for medium-sized screens */
+    }
+  
+    .shedule2 {
+      height: 30vh;
+      width: 55vw;
+      margin: 4rem 0 0 8rem; /* Example: adjust margin for medium-sized screens */
+    }
+  }
+  
+  /* Styles for screens larger than 992px (e.g., desktops) */
+  @media (min-width: 992px) {
+    .mountmountain2 {
+      height: 100vh; /* Example: keep the same height for larger screens */
+    }
+  
+    .shedule2 {
+      margin: 6.5rem 0 0 13rem; /* Example: keep the same margin for larger screens */
+    }
+  }
+  
